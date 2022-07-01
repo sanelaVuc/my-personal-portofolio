@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal portofolio</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<header>
+    <h1>Sanela Vuc</h1>
+        <div class=" header">
+            <nav>
+                <ul>
+                    <li class="link"><a href="#AboutMe">About Me</a></li>
+                    <li class="link hide"><a href="#Projects">Projects</a></li>
+                    <li class="link hide"><a href="#Skills">Skills</a></li>
+                    <li class="link"><a href="#contact">Contact</a></li>
+                    <li id="dark-light" onclick="darkMode()">Light mode</li>
+                </ul>
+            </nav>
+        </div>
+</header>
+
+<body> 
+    <div id="AboutMe" class="containerAbout">
+        <h2>About Me</h2> 
+        <p>Hi! I'm Sanela, I live in United Kingdom. Currently I am learning to code through Codecademy's Front-End Engineer Career Path.</p>
+        <img src="./pictures/picture.jpg" alt="My picture" class="picture">
+    </div>  
+
+    <br>
+
+    <div id="Projects" class="containerProjects">
+        <h2>My Projects</h2>
+        <div class="teacozy">
+            <h3>Tea Cozy</h3>
+            <a href="https://github.com/sarboaika/tea-cozy.git" target="_blank"><img class="resize" src="./pictures/teacozy.jpeg" alt="Tea Cozy"></a>
+            <p>This project was a practice for Codecademy using HTML and CSS.</p>
+        </div>
+        <div class="happyDogs">
+            <h3>Happy Dogs Daycare & Boarding</h3>
+            <a href="https://github.com/sarboaika/CompanyHomePage.git" target="_blank"><img class="resize" src="./pictures/happydogs.jpeg" alt="Happy Dogs"></a>
+            <p>This project is a practice using flexbox in HTML AND CSS to build and design a company website.</p>
+        </div>
+        
+    </div>
+
+    <br>
+
+    <div id="Skills" class="containerSkills">
+        <h2>My Skills</h2>
+        
+            <figure> 
+                <img src="./pictures/html.png" alt="HTML">
+                <figcaption>HTML</figcaption>
+                <span>Level: Begginer</span>
+            </figure>
+            
+            <figure>
+                <img src="./pictures/css4.webp" alt="css">
+                <figcaption>CSS</figcaption>
+                <span>Level: Begginer</span>
+            </figure>
+            
+            <figure>
+                <img src="./pictures/javascript.webp" alt="js">
+                <figcaption>JAVA SCRIPT</figcaption>
+                <span>Level: Begginer</span>
+            </figure>
+            
+            <figure>
+                <img src="./pictures/python.png" alt="python">
+                <figcaption>PYTHON</figcaption>
+                <span>Level: Begginer</span>
+            </figure>
+             
+            <p id="xxx">...AND MORE TO LEARN :)</p>
+             
+        </div>
+    
+    <div id="contact" class="containerContact">
+        <h2>Contact Me</h2>
+        <a href="https://github.com/sarboaika" target="_blank"><img src="./pictures/github2.jpg" alt="github" id="github"></a>
+    </div>
+       
+
+    
+    <script src="./script.js">
+    </script>
+</body>
+<footer>
+    <h6>© Sanela Vuc 2022</h6>
+</footer>
+
+
+
+
+</html>
